@@ -38,5 +38,5 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
-          push: true
-          tags: user/app:latest
+          image: vjnvisakh/cheers2019
+          registry: docker.io
